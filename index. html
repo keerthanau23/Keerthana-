@@ -30,39 +30,28 @@
             <li>programming:Python,C,Java</li>
             <li>web developement: HTML, CSS, JavaScript</li>
             <li>Database:MySQL</li>
+            <li>Tools:Git,VS Code</li>
         </ul>
     </section>
 
     <section id="projects">
         <h2>Projects</h2>
         <ul>
-            <li>Student Management System - Python & MySQL</li>
-            <li>Portfolio Website - HTML, CSS, JavaScript</li>
-            <li>Library Management System - C with File Handling</li>
+            <li><strong>Student Management System - Python & MySQL</strong>-A simple app to manage std rec using py & mysql.</li>
+            <li><strong>Portfolio Website</strong> - HTML, CSS, JavaScript.</li>
+            <li><strong>Library Management System</strong> - C with File Handling.</li>
         </ul>
     </section>
 
     <section id="contact">
         <h2>Contact</h2>
-        <form id="contactForm">
-            <label for="name">Name:</label><br />
-            <input type="text" id="name" name="name" required /><br />
-
-            <label for="email">Email:</label><br />
-            <input type="email" id="email" name="email" required /><br />
-
-            <label for="message">Message:</label><br />
-            <textarea id="message" name="message" rows="4" required></textarea><br />
-
-            <button type="submit">Send</button>
-        </form>
-        <p id="formResponse"></p>
+        <p>Email:keerthana23@gmail.com</p>
+        <p>LinkedIn:<href="https://linkedin.com/in/keerthana"target="_blank">linkedin.com/in/keerthana</a></p>
+<p>GitHub:<a herf="https://github.com/keerthanau23"target="_blank"github.com/keerthana</a></p>
     </section>
 
     <footer>
         <p>&copy; 2025 U. Keerthana</p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
