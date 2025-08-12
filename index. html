@@ -11,11 +11,10 @@
         <h1>U. Keerthana</h1>
         <p>BSc Computer Science Student</p>
         <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
-            </ul>
         </nav>
     </header>
 
@@ -23,6 +22,15 @@
         <h2>About Me</h2>
         <p>Hello! I'm U. Keerthana, currently pursuing a Bachelor of Science in Computer Science.  
            I have a passion for coding, web development, and learning new technologies.</p>
+    </section>
+
+    <section id="skills">
+        <h2>skills</h2>
+        <ul>
+            <li>programming:Python,C,Java</li>
+            <li>web developement: HTML, CSS, JavaScript</li>
+            <li>Database:MySQL</li>
+        </ul>
     </section>
 
     <section id="projects">
@@ -35,7 +43,7 @@
     </section>
 
     <section id="contact">
-        <h2>Contact Me</h2>
+        <h2>Contact</h2>
         <form id="contactForm">
             <label for="name">Name:</label><br />
             <input type="text" id="name" name="name" required /><br />
