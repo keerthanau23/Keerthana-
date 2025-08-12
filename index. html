@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>U. Keerthana - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>U. Keerthana</h1>
+        <p>BSc Computer Science Student</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm U. Keerthana, currently pursuing a Bachelor of Science in Computer Science.  
+           I have a passion for coding, web development, and learning new technologies.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>Student Management System - Python & MySQL</li>
+            <li>Portfolio Website - HTML, CSS, JavaScript</li>
+            <li>Library Management System - C with File Handling</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label><br />
+            <input type="text" id="name" name="name" required /><br />
+
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" required /><br />
+
+            <label for="message">Message:</label><br />
+            <textarea id="message" name="message" rows="4" required></textarea><br />
+
+            <button type="submit">Send</button>
+        </form>
+        <p id="formResponse"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 U. Keerthana</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
